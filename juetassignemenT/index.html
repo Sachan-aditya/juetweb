@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUET GUNA</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #f0f0f0; 
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           
+            width: 100vw;
+            background-color: #99ccff; 
+            border-radius: 8px;
+            padding: 16px;
+            height: 100vh;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .header img {
+            max-width: 70px;
+            height: auto;
+        }
+
+        .header .logo {
+            max-width: 600px;
+            height: auto;
+        }
+
+        .address {
+            text-align: center;
+            font-family: Verdana, sans-serif;
+            font-size: 16px;
+            margin-bottom: 16px;
+        }
+
+        .address span {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .address a {
+            color: #ffffff; 
+            text-decoration: none;
+        }
+
+        .marquee {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            text-align: center;
+            background-color: #ffffff; 
+            width: 100%;
+            margin-bottom: 16px;
+            padding: 8px;
+        }
+
+        .marquee a {
+            color: #000000; 
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            width: 100%;
+        }
+
+        .content .column {
+            flex: 1;
+            padding: 16px;
+            background-color: #efefef; 
+            margin: 0 8px;
+        }
+
+        .column h2 {
+            font-size: 24px;
+            margin-bottom: 16px;
+        }
+
+        .column p {
+            font-size: 16px;
+        }
+
+        .column img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 16px;
+        }
+
+        .column a {
+            color: #0000ff; 
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .nav-bar{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .nav-bar button{
+            padding: 5px 8px;
+            margin: 8px;
+            text-transform: capitalize;
+            background-color: aquamarine;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="images/juet_logo1.jpg" alt="JUET Logo">
+            <img class="logo" src="images/head.jpg" alt="Header Image">
+        </div>
+        <div class="address">
+            <span>A-B Road, Raghogarh</span>
+            <span>Guna (M.P.)- 473 226, India</span>
+            <span>Ph : +91-7544-267051, 267310</span>
+            <span>E-mail : <a href="https://www.juet.ac.in/Contact/ContactUs.php">contact@juet.ac.in</a></span>
+        </div>
+        <div class="marquee">
+            <marquee behavior="alternate" scrollamount="4">
+                <a href="https://webkiosk.juet.ac.in/">Click Here To View The Result!!</a>
+            </marquee>
+        </div>
+        <div class="content">
+            <div class="column">
+                <h2>25 September, 2023</h2>
+                <div class="nav-bar">
+                    <a href="department.html"><button>Department</button></a>
+                <a href="faculty.html"><button>faculty</button></a>
+                <a href="about-juet.html"><button>about</button></a>
+                <a href="lrc.html"><button>lrc</button></a>
+                <a href="contact-us.html"><button>contact</button></a>
+                </div>
+            </div>
+            <div class="column">
+                <h2>Information Under RTI Act</h2>
+                <p><a href="https://www.juet.ac.in/RTI/RTIHome.php"><b>Read More</b></a></p>
+            </div>
+            <div class="column">
+                <h2>Placement-2023 Batch</h2>
+                <p><a href="https://www.juet.ac.in/TandP/Placement2023.php"><b>Read More</b></a></p>
+            </div>
+        </div>
+        <div class="content">
+            <div class="column">
+                <h2>News & Events</h2>
+            </div>
+            <div class="column">
+                <img src="images/Picture1 019.jpg" alt="">
+            </div>
+            <div class="column">
+                <marquee behavior="scroll" direction="up" scrollamount="2" height="300">
+                    <font color="#333">
+                        ZS Associates, Livlongm, ION Group, Genpact, Zycus, Accenture
+                    </font>
+                </marquee>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
